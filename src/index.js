@@ -4,7 +4,7 @@ const util = require("util");
 let db;
 
 // Create Database Under Conditions
-if (!db) db = new Database("./json.sqlite");
+if (!db) db = new Database("/home/sd/utopium/global/json.sqlite");
 
 // Declare Methods
 var methods = {
